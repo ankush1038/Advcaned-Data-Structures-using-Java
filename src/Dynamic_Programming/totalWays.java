@@ -12,7 +12,7 @@ public class totalWays {
         int w = 0;
         for(int i=0;i<=k && n-i>0;i++){
             if(ways[n-i]==0){
-                w += totalWays(n-i,k);
+                w += totalWays(n,k);
             }else{
                 w += ways[n-i];
             }
