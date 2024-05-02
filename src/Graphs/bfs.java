@@ -62,7 +62,7 @@ public class bfs {
         int[] dist = new int[v];
 
         boolean isReached = bfs(adj, src, dest, v, pred, dist);
-        System.out.println("Is destination reached? " + isReached);
+        System.out.println("Is destination reached ? " + isReached);
     }
     private static void addEdge(ArrayList<ArrayList<Integer>> adj, int u, int v) {
         adj.get(u).add(v);
